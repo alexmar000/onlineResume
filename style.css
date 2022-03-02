@@ -1,0 +1,230 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(-45deg, #162c35, #0c252f);
+    font-family: Quicksand;
+    color: whitesmoke;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #3f3d56;
+}
+.nav-bar {
+    opacity: 0;
+}
+.full-page {
+    height: 100vh;
+}
+.container-md {
+    padding-top: 210px;
+}
+.project {
+    margin: 2em;
+}
+.card {
+    padding: 3rem;
+    background-color: #162c35;
+}
+.project:nth-child(even) {
+    text-align: end;
+}
+.title {
+    font-size: 75px;
+}
+.intro-text {
+    width: 75%;
+    line-height: 40px;
+}
+.intro-icon {
+    width: 200%;
+    margin-right: 0%;
+}
+.workplace-li:nth-child(odd) {
+    clear: left;
+}
+.workplace-li:nth-child(even) {
+    float: left;
+    clear: right;
+}
+.experience-timeline {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.timeline-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    line-height: 20px;
+  }
+  .timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+  ul {
+    list-style: none;
+  }
+  .btn-primary {
+      color: whitesmoke;
+  }
+  .timeline ul li {
+    padding: 20px;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .timeline-content h1 {
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .timeline-content .date {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+  @media only screen and (max-width: 768px) {
+      .d-flex {
+          width: 100%;
+          justify-content: center;
+          padding-left: 100px;
+      }
+    .intro-icon {
+        visibility: hidden;
+    }
+    .work-description {
+        white-space: normal;
+    }
+    #h1-3 {
+        white-space: pre-line;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+    .list-container li {
+        line-height: 20px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .contact-icon {
+        width: 22px;
+        height: 22px;
+        vertical-align: middle;
+        padding-right: 0px;
+    }
+     .contact-container {
+         width: 100%;
+         display:inline-block;
+     }  
+     .contact-div {
+         width: 100%;
+         display:
+     }
+    .timeline-content {
+        white-space: pre-line;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    
+    .timeline-container {
+          padding-top: 20px;
+      }
+    .timeline:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 100%;
+      background-color: gray;
+    }
+    .timeline ul li {
+      width: 50%;
+      position: relative;
+      margin-bottom: 50px;
+    }
+    .timeline ul li:nth-child(odd) {
+      float: left;
+      clear: right;
+      transform: translateX(-30px);
+      border-radius: 20px 0px 20px 20px;
+    }
+    .timeline ul li:nth-child(even) {
+      float: right;
+      clear: left;
+      transform: translateX(30px);
+      border-radius: 0px 20px 20px 20px;
+    }
+
+    .timeline ul li:nth-child(odd)::before {
+      transform: translate(50%, -50%);
+      right: -30px;
+    }
+    .timeline ul li:nth-child(even)::before {
+      transform: translate(-50%, -50%);
+      left: -30px;
+    }
+}
+.contact-div {
+    gap: 15%;
+    margin: 20%;
+    margin-bottom: 50px;
+}
+.list-container ul, li {
+    display: inline-block;
+}
+
+.list-container li {
+    line-height: 90px;
+    padding: 5px;
+}
+.contact-list {
+    display:inline-block;
+}
+.contact-container {
+    width: 50%;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 65px;
+    padding-bottom: 0px;
+}
+.contact-icon {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    padding-right: 8px;
+}
+.modal {
+    font-size: 149px;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: none;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0);
+}
+.modal-window {
+    display: none;
+    position: relative;
+    color: white;
+    padding: 20px 10px;
+    opacity: 85%;
+}

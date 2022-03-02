@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body id="body">
+    <nav class="navbar navbar-expand sticky-top justify-content-center pt-2 my-3">
+            <ul class="navbar-nav">
+                <li class="nav-item generic-link">
+                    <a class="nav-link link-light" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-light" href="#experience-timeline">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-light" href="#contact">Contact me!</a>
+                </li>
+            </ul>
+    </nav>
+    <section class="full-page intro-page">
+        <div class="container-md d-flex my-10">
+            <div id="intro-text">
+                <h1 class="link-light title" id="hej">Hej!</h1>
+                <h2 class="intro-text pt-3">Jag är en nyfiken och driven systemutvecklare från Sundsvall med bakgrund inom .NET-utveckling. Jag letar nu efter nya spännande och lärorika erfarenheter!</h2>
+            </div>  
+            <img src="/img/undraw_programming_re_kg9v.svg"alt="" class="intro-icon">
+        </div>
+    </section>
+    <section id="" class="full-page container pt-5">
+        <h1 style="padding-left: 40%; padding-bottom: 10%;" id="portfolio">Portfolio</h1>
+        <div class="container portfolio" id="portfolio-container">
+        </div>
+    </section>
+    <section class="experience-timeline" id="experience-timeline">
+        <div class="timeline-container container">
+            <div class="timeline">
+              <ul>
+                <li>
+                  <div class="timeline-content" id="exp-0">
+                    <h3 class="date" id="h3-0">20th may, 2010</h3>
+                    <h1 id="h1-0">Heading 1</h1>
+                    <p id="p-0" class="work-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content" id="exp-1">
+                    <h3 class="date" id="h3-1">20th may, 2010</h3>
+                    <h1 id="h1-1">Heading 2</h1>
+                    <p id="p-1" class="work-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content" id="exp-2">
+                    <h3 class="date" id="h3-2">20th may, 2010</h3>
+                    <h1 id="h1-2">Heading 3</h1>
+                    <p id="p-2" class="work-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content" id="exp-3">
+                    <h3 class="date" id="h3-3">20th may, 2010</h3>
+                    <h1 id="h1-3">Heading 4</h1>
+                    <p id="p-3" class="work-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+    </section>
+    <section id="contact">
+        <div class="container-fluid contact-container">
+            <div class="contact-div">
+                <div class="">
+                    <h1>Håll kontakten!</h1>
+                    <a href="mailto:alex@inteheltfel.se" class="btn btn-primary btn-lg btn-outline-success">Mejla mig</a>
+                </div>
+                <div class="row list-container">
+                    <ul id="contact-list col-sm">
+                        <li>
+                            <img src="/img/icons/email-svgrepo-com.svg" class="contact-icon"></img>alex@inteheltfel.se</li>
+                        <li><img src="/img/icons/old-phone-svgrepo-com.svg" class="contact-icon"></img>(+46)72-327 20 48</li>
+                        <li><img src="/img/icons/location-svgrepo-com.svg" class="contact-icon"></img>Sundsvall, Sverige</li>
+                        <li>
+                            <img src="/img/icons/icons8-github.svg" class="contact-icon"></img> 
+                            <a href="https://github.com/alexmar000">Github</a>
+                        </li>
+                        <li>
+                            <img src="/img/icons/icons8-linkedin.svg" class="contact-icon"></img>
+                            <a href="https://www.linkedin.com/in/alex-olave-29908b22a/" id="linked">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal" id="modal-id">
+        <div class="modal-window" id="easteregg-window">
+            <a id="easteregg-emoji" href="">😎</a>
+        </div>
+    </div>
+    <script src="/js/myscript.js"></script>
+    <script src="/js/eastereggs.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>  
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="index.js"></script>
+    <script type="text/babel">
+        ReactDOM.render(<Portfolio/>, document.querySelector('#portfolio-container'));
+    </script>
+</body>
+</html>

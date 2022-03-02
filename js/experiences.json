@@ -1,0 +1,22 @@
+    [
+        {
+            "time-period": "sep, 2021",
+            "title": "Systemutvecklare .NET",
+            "description": "Två-årig YH-utbildning där jag lär mig bl.a .NET-ramverket, systemarkitektur, React, SSMS, MS Azure, EF Core, samt kompetens inom AI."
+        },
+        {
+            "time-period": "maj, 2021",
+            "title": "Responsive Web Design",
+            "description": "Kurs i grunderna för responsiv web-design i HTML och CSS genom FreeCodeCamp."
+        },
+        {
+            "time-period": "dec, 2019",
+            "title": "Kjell & Company",
+            "description": "Lärorik och serviceinriktad arbetsplats som kräver en bred teknisk kunskapsbas och god förmåga för problemlösning."
+        },
+        {
+            "time-period": "jun, 2018",
+            "title": "Samhällsvetenskapsprogrammet",
+            "description": "Tog examen från Sundsvalls gymnasium."
+        }
+    ]
