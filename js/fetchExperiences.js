@@ -4,7 +4,7 @@ applyExperiences();
 
 
 async function getExperiences() {
-  const response = await fetch("js/experiences.json")
+  const response = await fetch("./js/experiences.json")
   experiences = await response.json();
   console.log(experiences[0]["title"]);
 }
