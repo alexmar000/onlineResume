@@ -27,8 +27,8 @@ class Portfolio extends React.Component {
     }
     componentDidMount() {
         var urls = [
-            'https://github.com/TeamMossen/TeamMossenWebApp',
-            'https://github.com/alexmar000/alarm_gui',
+            'https://api.github.com/repos/TeamMossen/TeamMossenWebApp',
+            'https://api.github.com/repos/alexmar000/alarm_gui',
             'https://api.github.com/repos/alexmar000/survey-form'
         ];
         
