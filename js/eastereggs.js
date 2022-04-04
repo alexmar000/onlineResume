@@ -15,7 +15,7 @@ const _konamiCode = [
 document.addEventListener('keyup', function(e) {
     _keyPresses.push(e.key);
     if (_keyPresses.join('').includes(_konamiCode.join(''))) {
-        console.log('dd')
+        console.log('B-)')
         document.getElementById('easteregg-window').style.display = "block";
         document.getElementById('modal-id').style.visibility = "visible";
         _keyPresses = [];

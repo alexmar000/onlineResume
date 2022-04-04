@@ -1,7 +1,7 @@
 
 let _experiences;
 applyExperiences();
-
+console.log('två easter eggs finns gömda..')
 
 async function getExperiences() {
   const response = await fetch("./js/experiences.json")
