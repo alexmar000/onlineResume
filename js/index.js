@@ -28,8 +28,8 @@ class Portfolio extends React.Component {
     componentDidMount() {
         var urls = [
             'https://api.github.com/repos/TeamMossen/TeamMossenWebApp',
-            'https://api.github.com/repos/alexmar000/alarm_gui',
-            'https://api.github.com/repos/alexmar000/survey-form'
+            'https://api.github.com/repos/TeamMossen/aspnetMelon',
+            'https://api.github.com/repos/alexmar000/alarm_gui'
         ];
         
         const requests = urls.map((url) => fetch(url))

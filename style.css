@@ -57,6 +57,9 @@ a {
     padding: 0;
     box-sizing: border-box;
 }
+.experience-header {
+    line-height: 200px;
+}
 .timeline-container {
     min-height: 100vh;
     width: 100%;
@@ -65,6 +68,7 @@ a {
     justify-content: center;
     padding: 100px 0;
     line-height: 20px;
+    margin-top: 350px;
   }
   .timeline {
     width: 80%;
